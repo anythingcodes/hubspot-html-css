@@ -984,7 +984,7 @@ p {
 				</section>
 
 				<section data-background="#0f434c">
-					<h1 style="color: #f9f8f7;">CSS Selectors</h1>
+					<h1 style="color: #f9f8f7;">Styling with CSS</h1>
 				</section>
 
 				<!-- 1. Styling: The Element Selector, Text Color, & Backgrounds -->
@@ -1078,10 +1078,6 @@ div strong {
 					<aside class="notes">Rare that you'll want every div to have a black background, for instance, or every link to be the same color. Need a way to narrow that down further. We'll use this to distinguish our main and footer sections. We'll use classes to style our footer and main content differently. OPTIONAL: Mention IDs, as well, and that they are unique. Example includes 'Raise your hand if you have dark hair. Those people would have a class of 'darkhair', while an individual person would have a unique ID, such as SSN, which could be used to target individually.'</aside>
 				</section>
 
-				<section data-background="#0f434c">
-					<h1 style="color: #f9f8f7;">Common CSS Properties for Styling Text</h1>
-				</section>
-
 				<section>
 					<h3>Property: <em>color</em></h3>
 					<p>The <span class="orange">color</span> property changes the color of the text.</p>
@@ -1157,26 +1153,6 @@ h4 {
         </code></pre>
 				</section>
 
-				<!-- Activity -->
-				<section>
-					<h2>Activity</h2>
-					<p class="blue">Let's style some text elements with:</p>
-					<ol style="margin-top:1em;">
-						<li>Font family</li>
-						<li>Font sizes</li>
-						<li>Color</li>
-						<li>Font boldness and italicization</li>
-						<li>Text alignment</li>
-					</ol>
-					<p>&nbsp;</p>
-					<p>Try to use the <span class="orange">descendant selector</span> to style descendantsTry to use the descendent selector.</p>
-					<aside class="notes">A whole lot! Don't need to use all. Mention that you can append this styling to the same rule, and code an example.</aside>
-				</section>
-
-				<section data-background="#0f434c">
-					<h1 style="color: #f9f8f7;">Common CSS Properties for Styling Layouts</h1>
-				</section>
-
 				<section>
 					<h3>Property: <em>background-color</em></h3>
 					<p>The <span class="orange">background-color</span> property changes the color of the background</p>
@@ -1211,7 +1187,7 @@ body {
 					<p>The <span class="orange">border</span> is the edge around an element, specified as "thickness style color"</p>
 
 						<pre><code class="css">
-selector {
+.footer {
   border: 5px dashed red;
   border: 8px solid green;
   border: 2px dotted purple;
@@ -1245,12 +1221,25 @@ footer {
 				<!-- Activity -->
 				<section>
 					<h2>Activity</h2>
-					<p class="blue">Let's get stylin'</p>
-					<ol style="margin-top:1em;">
-						<li>Apply a background color or image to your <span class="orange">body</span> element and/or other elements</li>
-						<li>Add a <span class="orange">border</span> to any elements you'd like</li>
-						<li>Add <span class="orange">width</span>s or <span class="orange">height</span>s to any layout elements you'd like</li>
-					</ol>
+					<ul style="margin-top:1em;">
+						<li>Style any elements you'd like with:
+							<ul>
+								<li>Font family (give <a href="http://cssfontstack.com" target="_blank">CSSFontStack.com &raquo;</a> a shot)</li>
+								<li>Color</li>
+								<li>Font boldness and italicization</li>
+								<li>Text alignment</li>
+								<li>A background color or image</li>
+								<li>A border</li>
+								<li>Widths or heights</li>
+							</ul>
+						</li>
+					</ul>
+
+					<p>&nbsp;</p>
+					<p>Try to use the <span class="orange">descendant selector</span> to style descendants, and the <span class="orange">class selector</span> to style your main content differently from your footer.</p>
+					<aside class="notes">A whole lot! Don't need to use all. Mention that you can append this styling to the same rule, and code an example.</aside>
+
+
 				</section>
 
 				<section data-background="#0f434c">
@@ -1259,7 +1248,7 @@ footer {
 
 				<section>
 					<h2>Tip</h2>
-					<p class="blue">Debugging CSS</p>
+					<h3>Using the Inspector</h3>
 					<p>Not sure where styles are coming from? Right-click a page and choose 'Inspect Element'!</p>
 				</section>
 

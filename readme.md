@@ -56,17 +56,17 @@ Coding is quickly turning into one of those must-have skills, but knowing how an
     - CSS Syntax
     - Connecting CSS to HTML &mdash; mention we'll be using relative file paths
     - **Activity**: Connect CSS file to HTML file
-- **CSS Selectors** *(5 minutes)*
-    - Element
-    - Descendant
-    - Class &mdash; briefly mention ID
-- **Common CSS Properties** *(15 minutes)*
-    - Text:
+- **Styling with CSS** *(15 minutes)*
+    - Selectors:
+        - Element
+        - Descendant
+        - Class &mdash; briefly mention ID
+    - Styling Text:
         - Color
         - Alignment
         - Font-family
         - Font-style and font-weight
-    - Layout:
+    - Styling Layout Elements:
         - Background-color
         - Background-image
         - Border
