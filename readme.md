@@ -21,7 +21,7 @@ Coding is quickly turning into one of those must-have skills, but knowing how an
 ### Class Preparation:
 
 - Send a note to students asking them to download a text editor. Include the list of text editors with links.
-- Print the [HTML + CSS cheatsheet](http://anything.codes/hubspot-html-css/cheatsheet.html)  for students
+- Print the [HTML + CSS cheatsheet](http://anything.codes/hubspot-html-css/cheatsheet.pdf)  for students
 
 ### Schedule:
 
