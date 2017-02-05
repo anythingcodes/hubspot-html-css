@@ -443,25 +443,26 @@ body {
   display: block;
   position: relative;
   width: 90%;
-  margin: 15px auto;
-
+  margin: 0 auto;
+  font-weight: normal;
   text-align: left;
   font-size: 0.55em;
   font-family: monospace;
   line-height: 1.2em;
-
   word-wrap: break-word;
-
-  box-shadow: 0px 0px 6px rgba(0,0,0,0.3);
 }
 .reveal code {
   font-family: monospace;
 }
 .reveal pre code {
-  padding: 5px;
+  padding: 20px;
   overflow: auto;
   max-height: 400px;
   word-wrap: normal;
+  white-space: pre-wrap;
+}
+.reveal .nowrap code{
+  white-space: nowrap;
 }
 .reveal pre.stretch code {
   height: 100%;

@@ -7,7 +7,6 @@
 
 .reveal {
   font-weight: 300;
-  letter-spacing: -0.02em;
   color: #53555C;
    }
 
@@ -39,10 +38,6 @@ div.left-align{
 /*********************************************
  * LINKS
  *********************************************/
-.reveal a:not(.image) {
-  color: $gdiPink;
-  text-decoration: none;
-  transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
   color: #f9b8bb;
@@ -161,7 +156,7 @@ div.left-align{
 
 .blue {color:#00A9B4;}
 .green {color: #92BB44;}
-.orange {color: #EDAB23;}
+.orange {color: $hubSpotOrange;}
 .left {float: left;}
 .right {float: right;}
 

@@ -16,9 +16,9 @@
 		<link rel="stylesheet" href="dist/css/default.css" id="theme">
 
 		<!-- For syntax highlighting -->
-		<!-- light editor --><link rel="stylesheet" href="dist/css/light.css">
+		<!--&lt;!&ndash; light editor &ndash;&gt;<link rel="stylesheet" href="dist/css/light.css">-->
 		<!-- dark editor <link rel="stylesheet" href="dist/css/dark.css">-->
-		<!-- <link rel="stylesheet" href="dist/css/zenburn.css"> -->
+		<link rel="stylesheet" href="dist/css/zenburn.css">
 
 		<link rel="stylesheet" href="plugin/accessibility-helper/css/accessibility-helper.css">
 
@@ -52,18 +52,13 @@
 				<!-- Code Your Own Website -->
 				<section>
 					<h2>Code Your Own Website</h2>
-					<img src="img/circle-gdi-logo.png" alt="GDI Logo" />
+					<img src="dist/img/hubspot-logo.svg" alt="HubSpot Logo" style="box-shadow: none;border:none;" />
 					<h3>Intro to HTML + CSS</h3>
-					<p>
-						<small>Class 1</small>
-					</p>
 				</section>
 
 				<!-- Welcome! -->
 				<section class="hide-pdf">
 					<h2>Welcome!</h2>
-					<p>Girl Develop It is here to provide affordable and accessible programs to learn software through mentorship and hands-on instruction.</p>
-					<p>&nbsp;</p>
 					<p class="green">Some "rules"</p>
 					<ul>
 						<li>We are here for you!</li>
@@ -71,25 +66,6 @@
 						<li>Help each other</li>
 						<li>Have fun</li>
 					</ul>
-				</section>
-
-				<!-- First Things First -->
-				<section class="hide-pdf">
-					<h2>First Things First</h2>
-					<p class="blue">Tell us about yourself.</p>
-					<ul>
-						<li>Who are you?</li>
-						<li>What do you hope to get out of the class?</li>
-						<li>What is your favorite or dream vacation destination?</li>
-					</ul>
-				</section>
-				<section>
-					<h2>First Things First</h2>
-					<p>&nbsp;</p>
-					<p><strong>Thank you to our wonderful TAs!</strong></p>
-					<p>&nbsp;</p>
-					<p>Course website: <a href="http://anything.codes" target="_blank">http://anything.codes</a></p>
-					<p>Instructor contact info</p>
 				</section>
 
 				<!-- Get Started -->
@@ -104,14 +80,6 @@
 							<ul>
 								<li><a href="https://www.google.com/chrome/browser/" target="_blank" class="roll"><span data-title="Chrome">Chrome</span></a>
 								</li>
-							</ul>
-							<br />
-						</li>
-						<li>
-							<div class="orange"><strong>Development Toolkit</strong>
-							</div>
-							<ul>
-								<li>Chrome's Inspector (built-in to Chrome)</li>
 							</ul>
 							<br />
 						</li>
@@ -149,7 +117,7 @@
 								</li>
 								<li>
 									<div class="green">Back end development</div>
-									<div>The inner workings and functionality of a website or application.</div>
+									<div>The inner workings and functionality of a website or application</div>
 								</li>
 							</ul>
 						</li>
@@ -164,37 +132,28 @@
 					<h3>What is HTML?</h3>
 					<ul>
 						<li>HTML is the code that allows us to build websites</li>
-						<li>It adds <span class="orange">structure</span> to a webpage's content</li>
+						<li>It adds <span class="blue">structure</span> to a webpage's content</li>
+
 					</ul>
+					<p>&nbsp;</p>
+					<p class="fragment"><span class="green">HTML</span>: <span class="green">H</span>yper <span class="green">T</span>ext <span class="green">M</span>arkup <span class="green">L</span>anguage</p>
+
 					<aside class="notes">
 						Point out how the bullet's line is content, but 'structure' looks different because of how it's marked up by HTML (start yellow, end yellow).
-					</aside>
-				</section>
-				<section>
-					<h3>What is HTML?</h3>
-					<ul>
-						<li>CERN scientist Tim Berners-Lee created "hypertext" to share scientific papers</li>
-						<li class="fragment"><span class="orange">HTML</span>: <span class="orange">H</span>yper <span class="orange">T</span>ext <span class="orange">M</span>arkup <span class="orange">L</span>anguage</li>
-						<li class="fragment"><span class="orange">HTTP</span>: <span class="orange">H</span>yper <span class="orange">T</span>ext <span class="orange">T</span>ransfer <span class="orange">P</span>rotocol
-							<br><img src="img/http.png" alt="HTTP in a URL">
-						</li>
-						<li class="fragment">First web page August 6, 1991</li>
-					</ul>
-					<aside class="notes">
-						Emphasize that students use hypertext every single day, it's nothing new.
 					</aside>
 				</section>
 
 				<!-- HTML in Action -->
 				<section>
 					<h3>What's a Markup Language?</h3>
-					<p>A markup language is a set of <span class="orange">markup tags</span>:</p>
+
+					<p>A markup language is a set of <span class="green">markup tags</span>:</p>
 					<pre class="nowrap apache">
 					<code>
 						&lt;tagname>content&lt;/tagname>
 					</code>
 				</pre>
-					<p class="fragment">Each HTML tag <span class="orange">describes</span> its content:</p>
+					<p class="fragment">Each HTML tag <span class="blue">describes</span> its content:</p>
 					<pre class="nowrap apache fragment">
 					<code>
 						&lt;p>This sentence goes in a paragraph (p) tag.&lt;/p>
@@ -205,16 +164,11 @@
 				<section>
 					<h3>HTML in Action</h3>
 					<p>If you 'View Page Source', you see this:
-						<br><img src="img/homepage-html.png" alt="HTML page source">
+						<br><img src="dist/img/homepage-html.png" alt="HTML page source">
 					</p>
 				</section>
 
 
-				<!--<section>
-                    <h3>Get Started: Get The Images</h3>
-                    <p>Find and use your own images, or unzip the file at <a href="http://anything.codes/gdi-intro-html-css/images.zip">http://anything.codes/gdi-intro-html-css/images.zip</a> to use the design's images.</p><p><br /></p>
-                    <p>Move those images to the <em>images</em> folder you just created.</p>
-                </section>-->
 
 				<!-- Anatomy of a Website -->
 				<section>
@@ -224,18 +178,6 @@
 					<p>+ <span class="fragment grow highlight-blue">CSS</span>: Presentation</p>
 					<p>= <span class="fragment grow highlight-blue">Your Website</span></p>
 					<p>A website is a way to present your content to the world, using HTML to structure that content, and CSS to make it look good.</p>
-				</section>
-
-				<!-- Our Class Project -->
-				<section>
-					<h3>Our Class Project</h3>
-					<img src="img/design-before-after.png" alt="Design - before and after">
-					<aside class="notes">
-						This is our class project, but you can make anything you want out of it. Providing you with tools and resources to make what you want of it.
-						Today we will be learning how to code a site from scratch using paragraphs, headings, links, images, and lists.
-						Today: HTML 'playground' to get acclimated (the ugly sketching phase of web development!); Next week: CSS for styles.
-						Start building towards this in class 3.
-					</aside>
 				</section>
 
 				<!-- Anatomy of a Website -->
@@ -271,50 +213,10 @@
 					</aside>
 				</section>
 
-				<!-- Anatomy of an HTML Element -->
-				<section>
-					<h3>Anatomy of an HTML element</h3>
-					<ul>
-						<li>
-							<strong class="blue">Element</strong>
-							<ul>
-								<li>A full block, including opening and closing tags. An element is comprised of its content and tags.</li>
-							</ul>
-						</li>
-					</ul>
-					<pre class="nowrap apache">
-								<code>
-&lt;section>Content in the middle&lt;/section>
-								</code>
-				</pre>
-
-					<div class="fragment">
-						<ul>
-							<li>
-								<strong class="blue">Tag</strong>
-								<ul>
-									<li>Tags mark the beginning and end of an element, and indicate the element's purpose. There are opening and closing tags:</li>
-								</ul>
-							</li>
-						</ul>
-						<pre class="nowrap apache">
-									<code>
-&lt;p>The p tag means this content is a paragraph.&lt;/p>
-									</code>
-								</pre>
-						<pre class="nowrap apache">
-									<code>
-&lt;header>The header tag means this content is a website's header.&lt;/header>
-									</code>
-								</pre>
-					</div>
-					<aside class="notes">Think of the element as the block of code from the opening tag to closing tag, and the tag as just the container's start and finish. The tag is a component of the element, which is the huge block of code.</aside>
-				</section>
-
 				<!-- Tag Breakdown -->
 				<section>
 					<h3>Tag Breakdown</h3>
-					<img src="img/tagbreakdown.png" alt="Tag breakdown" style="border: none; box-shadow: none;" />
+					<img src="dist/img/tagbreakdown.png" alt="Tag breakdown" style="border: none; box-shadow: none;" />
 				</section>
 
 				<!-- HTML Coding Tip -->
@@ -347,67 +249,14 @@
 					<aside class="notes">Prevents any stray unclosed tags -- show an example in NotePad?</aside>
 				</section>
 
-				<!-- Anatomy of an HTML element -->
-				<section>
-					<h3>Anatomy of an HTML element</h3>
-					<p class="blue">Shorthand</p>
-					<ul>
-						<li class = "fragment">
-							<strong class="green">Container Element</strong>: Can contain content within the opening and closing tags:
-							<pre class="apache">
-							<code>&lt;p>This is content within the opening and closing tags.&lt;/p></code>
-						</pre>
-						</li>
-						<li class = "fragment">
-							<strong class="green">Stand-Alone Element</strong>: When an element does not contain any content within its opening and closing tags, use the <span class="orange">&lt;tagname /&gt;</span> shorthand:
-							<pre class="nowrap apache">
-							<code>&lt;br /></code>
-						</pre>
-							<pre class="nowrap apache">
-							<code>&lt;img src="images/photo.jpg" /></code>
-						</pre>
-							<small>The examples are shorthand for <em>&lt;br&gt;&lt;/br&gt;</em> and <em>&lt;img src="images/photo.jpg"&gt;&lt;/img&gt;</em></small>
-						</li>
-					</ul>
-				</section>
 				<section>
 					<h3>Anatomy of an HTML element</h3>
 					<p class="blue">Attributes</p>
 					<p>Adding <span class="orange">attributes</span> to an HTML tag provides additional information about the HTML element</p>
-					<img src="img/html-tag.gif" alt="Attributes in HTML" />
-					<aside class="notes">Skip to next slide! Has more info</aside>
-				</section>
-				<section>
-					<h3>Anatomy of an HTML element</h3>
-					<p class="blue">Attributes</p>
-					<img src="img/html-tag.gif" style="max-height:130px;" alt="Attributes in HTML" />
-					<ul>
-						<li class = "fragment">
-							<strong class="orange">Attribute Name</strong>: class, ID, style, href, etc.
-							<ul>
-								<li>Placed inside an opening tag, before the right angle bracket.</li>
-							</ul>
-						</li>
-						<li class="fragment">
-							<strong class="orange">Attribute Value</strong>
-							<ul>
-								<li>Value is the value assigned to a given attribute</li>
-								<li>Values must be contained inside quotation marks:
-									<pre>
-									<code class="apache">&lt;img src="my_picture.jpg" />
-									&lt;div id="intro"&gt;Lorem ipsum&lt;/div>
-									&lt;a href="http://girldevelopit.com" class="fancy-link">GDI&lt;/a></code>
-								</pre>
-								</li>
-							</ul>
-						</li>
-					</ul>
-					<aside class="notes">
-						Attribute placed inside an opening tag, right before the angle bracket. Can add as many as you want and order doesn't matter. Code an example of an image with multiple attributes (src, ID, class, alt, title). Each attribute separated by a space with name="value".
+					<img src="dist/img/html-tag.gif" alt="Attributes in HTML" />
+					<aside class="notes">						Attribute placed inside an opening tag, right before the angle bracket. Can add as many as you want and order doesn't matter. Code an example of an image with multiple attributes (src, ID, class, alt, title). Each attribute separated by a space with name="value".
 					</aside>
 				</section>
-
-
 
 				<!-- Fundamental Structure of an HTML File -->
 				<section>
@@ -419,7 +268,7 @@
 						&lt;!DOCTYPE html>
 					</code>
 				</pre>
-					<img src="img/document-types.jpg" alt="Various document types" />
+					<img src="dist/img/document-types.jpg" alt="Various document types" />
 					<p><small>The doctype is case-insensitive. <br/>DOCtype, doctype, DocType and DoCtYpe are all valid.</small></p>
 					<aside class="notes">
 						Exclamation mark indicates informative content that doesn't show up as text on the screen. Example: A human can look at a type of document and understand what type of document that is (letter, award, outline, etc.), but a browser has to be told specifically what it's looking at. Reads from top to bottom -- now that it knows it's HTML, it moves on to parsing the rest of the document as HTML.
@@ -443,7 +292,7 @@
 					<p>The head contains information about the page, but <u>does not contain page content</u>. It contains elements that let the browser know:</p>
 					<ul class="left-align" style="font-size:90%;margin-left:3em">
 						<li>The page's <span class="orange">title</span></li>
-						<li><span class="orange">Meta information</span> about the page: Meta information is not visible to the user, but has many purposes, one of which is to tell search engines about your page, who created it, and the page's description</li>
+						<li><span class="orange">Meta information</span> about the page for search engines: Search results title and description</li>
 						<li>Where to find the <span class="orange">CSS file</span> (which styles the page)</li>
 					</ul>
 					<pre class="apache"><code>&lt;!DOCTYPE html>
@@ -475,7 +324,7 @@
 				<!-- Head and Body Tags: Example -->
 				<section>
 					<h3>Head and Body Tags: Example</h3>
-					<img src="img/example-headbody.png" alt="example of head and body" style="box-shadow:none;"/>
+					<img src="dist/img/example-headbody.png" alt="example of head and body" style="box-shadow:none;max-height: none"/>
 					<aside class="notes">Make a quick example on your machine, showing some head tags (title, possibly meta description), and some body tags as you update.</aside>
 				</section>
 
@@ -514,7 +363,7 @@
 						</p>
 					</div>
 					<div class="right" style="width: 45%;">
-						<img src="img/folderstructure1.png" alt="Folder Structure">
+						<img src="dist/img/folderstructure1.png" alt="Folder Structure">
 					</div>
 					<aside class="notes">
 						If confused by file system, don't worry, can still get through class by starting from scratch.
@@ -528,7 +377,7 @@
 						<p class="left-align">Ignore the HTML and CSS files for now</p>
 					</div>
 					<div class="right" style="width: 45%;">
-						<img src="img/folderstructure1.png" alt="Folder Structure">
+						<img src="dist/img/folderstructure1.png" alt="Folder Structure">
 					</div>
 					<aside class="notes">
 						Mac, PC, Linux -- doesn't matter. As long as the structure is the same and you choose a folder you'll have access to next week. MAKE FOLDERS IN FRONT OF STUDENTS.
@@ -540,10 +389,10 @@
 					<h2>Let's develop it!</h2>
 					<ol>
 						<li>Open your text editor and create a new file.</li>
-						<li>Save it as index.html in the 'class1' folder you created earlier.</li>
+						<li>Save it as index.html in the 'master-class' folder you created earlier.</li>
 						<li>Add the fundamental structure (a doctype, head, title and body).</li>
 					</ol>
-					<img src="img/folderstructure1.png" alt="Folder Structure">
+					<img src="dist/img/folderstructure1.png" alt="Folder Structure">
 					<p>Later we'll add some content to it!</p>
 
 					<aside class="notes">
@@ -559,7 +408,7 @@
 						<p><small>Nesting is what happens when you put other containing tags inside other containing tags. For example, you would put the &lt;p>&lt;/p> inside of the &lt;body>&lt;/body> tags. The &lt;p>&lt;/p> is now nested inside the &lt;body>&lt;/body>, and is one of its descendants</small></p>
 					</div>
 					<div class = "left" style = "width:50%">
-						<img src = "img/nesting.jpg"/>
+						<img src = "dist/img/nesting.jpg"/>
 					</div>
 					<aside class="notes">
 						Do this example in Notepad++.
@@ -625,40 +474,6 @@
 					<p><br />This will make your life much easier down the road, as you add more content and style your pages.</p>
 					<aside class="notes">Helps you more obviously see the family relationships and troubleshoot problems.</aside>
 				</section>
-				<section>
-					<h3>HTML Coding Tip #3</h3>
-					<p>HTML ignores multiple whitespaces in a row. You can add consecutive white space characters (spaces, tabs, &amp; carriage returns) into your HTML, but when you view that page &mdash; <em>all but one disappears!</em></p>
-					<p>&nbsp;</p>
-
-					<div>
-						<div class = "left" style = "width:50%">
-							<p><span class="orange"><u>HTML:</u></span></p>
-							<pre class="html"><code>
-					&lt;p>Two carriage returns
-					Three carriage returns
-
-
-
-					Plus multiple spaces     ...&lt;/p>
-					</code></pre>
-						</div>
-						<p><span class="orange"><u>Result:</u></span></p>
-						<div>
-							<p style="font-size:90%;">Two carriage returns
-								Three carriage returns
-
-
-
-								Plus multiple spaces     ...</p>
-						</div>
-						<div class ="clear"></div>
-					</div>
-					<p></p>
-					<p><small>To force consecutive spaces to show, use <em>&amp;nbsp;</em> (stands for <em>"no-break space"</em>) in your HTML instead of spaces.</small></p>
-					<aside class="notes">
-						This is very different from a word processor. You can use that to your advantage, for organizational purposes.
-					</aside>
-				</section>
 
 				<!-- Common HTML Elements -->
 				<section>
@@ -692,7 +507,7 @@
 					<h3>Common HTML Elements</h3>
 					<p class="blue">Paragraphs in Action</h3>
 					<p>Paragraphs allow you to format your content in a readable fashion.</p>
-					<img src="img/example-paragraphs.png" alt="Example of Paragraphs in the wild" />
+					<img src="dist/img/example-paragraphs.png" alt="Example of Paragraphs in the wild" />
 					<p><small>You can edit how paragraphs are displayed with CSS</small></p>
 				</section>
 				<section>
@@ -725,7 +540,7 @@
 				<section>
 					<h3>Common HTML Elements</h3>
 					<p class="blue">Headings in Action</p>
-					<img src="img/example-headings.png" alt="Example of headings" style="max-height:17em;" />
+					<img src="dist/img/example-headings.png" alt="Example of headings" style="max-height:17em;" />
 				</section>
 				<section>
 					<h3>Common HTML Elements</h3>
@@ -953,7 +768,7 @@
 					<h3>Common HTML Elements</h3>
 					<p class="blue">Lists in Action</p>
 					<p>Lists can be used to organize any list of items.</p>
-					<img src="img/example-lists.png" alt="Examples of lists" style="max-height:13.5em;" />
+					<img src="dist/img/example-lists.png" alt="Examples of lists" style="max-height:13.5em;" />
 					<p><small>You'd be surprised how often lists are used in web development.</small></p>
 				</section>
 
@@ -1023,7 +838,7 @@
 				<section>
 					<h3>Common HTML Elements</h3>
 					<p class="blue">Tables in Action</p>
-					<img src="img/example-tables.png" alt="Example of tables" />
+					<img src="dist/img/example-tables.png" alt="Example of tables" />
 					<aside class="notes">Zebra striping accomplished with CSS. Students shouldn't focus too much on tables for this course. Very helpful if making HTML emails, but for standard webpages, they're 'outdated' because they're not flexible.</aside>
 				</section>
 				<section>
@@ -1047,7 +862,7 @@
 						</ul>
 					</div>
 					<div class="right" style="width: 40%;">
-						<img src="img/example-characters.png" alt="Example of Characters"/>
+						<img src="dist/img/example-characters.png" alt="Example of Characters"/>
 					</div>
 				</section>
 
@@ -1068,7 +883,7 @@
 
 				<section>
 					<h2>Code Your Own Website</h2>
-					<img src="img/circle-gdi-logo.png" alt="GDI Logo" />
+					<img src="dist/img/circle-gdi-logo.png" alt="GDI Logo" />
 					<h3>Intro to HTML + CSS</h3>
 					<p>
 						<small>Class 2</small>
@@ -1109,7 +924,7 @@
 				<section>
 					<h3>CSS: What can it do?</h3>
 					<p>All colored text, positioning, sizes</p>
-					<img src = "img/design-before-after.png">
+					<img src = "dist/img/design-before-after.png">
 					<aside class="notes">Our class project</aside>
 				</section>
 
@@ -1138,7 +953,7 @@
 				<!-- CSS: What does it look like? -->
 				<section>
 					<h3>CSS in Action</h3>
-					<img src="img/css.png">
+					<img src="dist/img/css.png">
 				</section>
 
 				<!-- HTML + CSS -->
@@ -1179,7 +994,7 @@ p {
 				<!-- CSS Syntax -->
 				<section>
 					<h3>CSS Syntax</h3>
-					<img src="img/css-syntax.png" alt="CSS Syntax" style="border: none; box-shadow: none;max-height:250px;"/>
+					<img src="dist/img/css-syntax.png" alt="CSS Syntax" style="border: none; box-shadow: none;max-height:250px;"/>
 					<pre>
 <code class = "css">selector {
    property: values;
@@ -1194,7 +1009,7 @@ p {
 				</section>
 				<section>
 					<h3>CSS Syntax</h3>
-					<img src="img/css-syntax.png" alt="CSS Syntax" style="border: none; box-shadow: none;max-height:300px;"/>
+					<img src="dist/img/css-syntax.png" alt="CSS Syntax" style="border: none; box-shadow: none;max-height:300px;"/>
 					<p>You can add multiple property-value pairs to a rule, each ending with a semicolon:</p>
 					<pre>
 <code class = "css">body {
@@ -1305,13 +1120,13 @@ p {
 				<section>
 					<h3>Connecting CSS to HTML</h3>
 					<p class="blue">3. External</p>
-					<p><img src="img/external-stylesheet.png" /></p>
+					<p><img src="dist/img/external-stylesheet.png" /></p>
 				</section>
 
 				<!-- Let's Develop It! -->
 				<section class="hide-pdf">
 					<h3>Let's Develop It!</h3>
-					<p><img src="img/folderstructure1.png" /></p>
+					<p><img src="dist/img/folderstructure1.png" /></p>
 					<ol>
 						<li>Make a copy of your <span class="orange">class1</span> folder and call it <span class="orange">class2</span></li>
 						<li>Create a new CSS file and save it as <span class="orange">styles.css</span> within the <span class="orange">class2/css</span> folder</li>
@@ -1487,7 +1302,7 @@ p {
 					<h3>Property: <em>font-size</em></h3>
 					<p class="blue"><em>px</em> versus <em>em</em> versus <em>%</em></p>
 					<p><small>Pixels are a fixed-size unit &mdash; they don't change relative to their ancestor's font size. Percentages and "em"s are scalable and relative to their ancestor's font size.</small></p>
-					<img src="img/nesting-font-sizes.png" alt="Relative versus scalable font sizes" />
+					<img src="dist/img/nesting-font-sizes.png" alt="Relative versus scalable font sizes" />
 					<aside class="notes">Stress that you don't need to worry too much about specifics right now -- while learning, use pixels. This concept will come up in intermediate class so it's good to be aware of. CODE AN EXAMPLE of the difference between pixel and em/percentage. Use half and double. Note: Pixels and em/percentage are not just for font sizes -- you can use them for elements that have widths, heights, etc. Recommend ems and pxs (or other scalable units) over pixels.
 						<pre><code class="html">
 &lt;p>The default body font size (16px)&lt;/p>
@@ -1542,7 +1357,7 @@ p {
   line-height: 2;
 }
         </code></pre>
-					<p><img src="img/word-line-spacing.jpg" /></p>
+					<p><img src="dist/img/word-line-spacing.jpg" /></p>
 					<aside class="notes">Mention how these are all doing the same thing, as multiples of two. Multiple of whatever that element's font size is, like previous example.</aside>
 				</section>
 				<!--<section>
@@ -1936,7 +1751,7 @@ p{
 
 				<section>
 					<h2>Code Your Own Website</h2>
-					<img src="img/circle-gdi-logo.png" alt="GDI Logo" />
+					<img src="dist/img/circle-gdi-logo.png" alt="GDI Logo" />
 					<h3>Intro to HTML + CSS</h3>
 					<p>
 						<small>Class 3</small>
@@ -2020,10 +1835,10 @@ p{
 				<!-- Our Class Project -->
 				<section>
 					<h3>What We'll Be Coding Today</h3>
-					<img src="img/design.png" alt="Design - before and after" style="max-height: 60vh;">
+					<img src="dist/img/design.png" alt="Design - before and after" style="max-height: 60vh;">
 					<p><small>
-						<a href="img/design.png" target="_blank">View design image &raquo;</a><br />
-						<a href="img/project.psd">Download PSD (optional; requires Photoshop) &raquo;</a>
+						<a href="dist/img/design.png" target="_blank">View design image &raquo;</a><br />
+						<a href="dist/img/project.psd">Download PSD (optional; requires Photoshop) &raquo;</a>
 					</small></p>
 				</section>
 
@@ -2036,13 +1851,13 @@ p{
 							<p class="left-align">Ignore the HTML and CSS files for now</p>
 						</div>
 						<div class="right">
-							<img src="img/folderstructure-project.png" alt="The project folder structure" />
+							<img src="dist/img/folderstructure-project.png" alt="The project folder structure" />
 						</div>
 					</div>
 				</section>
 				<section>
 					<h3>Get Started: Images</h3>
-					<img src="img/folderstructure-project-images.png" alt="The project folder structure" />
+					<img src="dist/img/folderstructure-project-images.png" alt="The project folder structure" />
 					<ol>
 						<li>Go to <a href="http://tinyurl.com/gdiboston">http://tinyurl.com/gdiboston</a> to download images.zip<!--http://anything.codes/gdi-intro-html-css/images.zip--></li>
 						<li>Open images.zip<ul><li>If you're using Windows, 'Extract' images.zip</li></ul></li>
@@ -2057,7 +1872,7 @@ p{
 						<li>Add the fundamental structure (a doctype, head, title and body).</li>
 						<li>Create a new file in your text editor. Save it as styles.css in the 'project/css' folder you created earlier.</li>
 					</ol>
-					<img src="img/folderstructure-project.png" alt="Folder Structure" />
+					<img src="dist/img/folderstructure-project.png" alt="Folder Structure" />
 				</section>
 
 				<section data-background="#f05b62">
@@ -2091,7 +1906,7 @@ selector {
 							</div>
 						</div>
 						<div class="right fragment">
-							<img src="img/blockinline.png" alt="example of inline and block elements">
+							<img src="dist/img/blockinline.png" alt="example of inline and block elements">
 						</div>
 					</div>
 				</section>
@@ -2220,7 +2035,7 @@ selector {
 					<h3>Block-Level Elements in Layouts</h3>
 					<p>Block-level elements are used to divide or section content within an HTML page</p>
 					<p class="fragment">
-						<img src="img/divided-page.jpg" alt="A page divided up into sections" />
+						<img src="dist/img/divided-page.jpg" alt="A page divided up into sections" />
 					</p>
 				</section>
 				<section>
@@ -2248,7 +2063,7 @@ selector {
 						</div>
 						<div class="right">
 							<p>
-								<img src="img/divided-page.jpg" alt="A page divided up into sections" />
+								<img src="dist/img/divided-page.jpg" alt="A page divided up into sections" />
 							</p>
 						</div>
 					</div>
@@ -2259,8 +2074,8 @@ selector {
 					<h2>Let's Develop It!</h2>
 					<p>Let's create block-level elements to separate content into different sections on our page</p>
 					<p><br /><small>
-						<a href="img/design.png" target="_blank">View design image &raquo;</a><br />
-						<a href="img/project.psd">Download PSD (optional; requires Photoshop) &raquo;</a>
+						<a href="dist/img/design.png" target="_blank">View design image &raquo;</a><br />
+						<a href="dist/img/project.psd">Download PSD (optional; requires Photoshop) &raquo;</a>
 					</small></p>
 				</section>
 
@@ -2308,21 +2123,21 @@ a:hover {
 				<section>
 					<h3>CSS Box Model</h3>
 					<p>
-						<img src="img/box-model.png" alt="The Box Model" />
+						<img src="dist/img/box-model.png" alt="The Box Model" />
 					</p>
 				</section>
 				<!--<section>
                   <h3>CSS Box Model</h3>
                   <p><span class="blue">Padding:</span> Space between the border and the content</p>
                   <p>
-                    <img src="img/box-model.png" alt="The Box Model" />
+                    <img src="dist/img/box-model.png" alt="The Box Model" />
                   </p>
                 </section>-->
 				<section>
 					<h3>CSS Box Model</h3>
 					<p class="blue">A Practical Example</p>
 					<p>
-						<img src="img/box-model-example.png" alt="A box example" />
+						<img src="dist/img/box-model-example.png" alt="A box example" />
 					</p>
 				</section>
 
@@ -2335,7 +2150,7 @@ a:hover {
 						<li>Same background color as the content</li>
 					</ul>
 					<p>
-						<img src="img/box-model.png" alt="The Box Model" />
+						<img src="dist/img/box-model.png" alt="The Box Model" />
 					</p>
 				</section>
 				<section>
@@ -2392,7 +2207,7 @@ div {
   padding: 10px 5px 3px 15px;
 }</code></pre>
 						<p>
-							<img src="img/trouble.gif" alt="Trouble Shorthand" />
+							<img src="dist/img/trouble.gif" alt="Trouble Shorthand" />
 						</p>
 					</div>
 				</section>
@@ -2408,7 +2223,7 @@ div {
 						<li>The edge around the box, specified as "thickness, style, color"</li>
 					</ul>
 					<p>
-						<img src="img/box-model.png" alt="The Box Model" />
+						<img src="dist/img/box-model.png" alt="The Box Model" />
 					</p>
 				</section>
 				<section>
@@ -2473,7 +2288,7 @@ selector {
 						<li>The transparent area around the box that separates it from other elements</li>
 					</ul>
 					<p>
-						<img src="img/box-model.png" alt="The Box Model" />
+						<img src="dist/img/box-model.png" alt="The Box Model" />
 					</p>
 				</section>
 				<section>
@@ -2531,7 +2346,7 @@ div {
   margin: 10px 5px 3px 15px;
 }</code></pre>
 						<p>
-							<img src="img/trouble.gif" alt="Trouble Shorthand" />
+							<img src="dist/img/trouble.gif" alt="Trouble Shorthand" />
 						</p>
 					</div>
 				</section>
@@ -2639,7 +2454,7 @@ selector {
 				<!-- Code Your Own Website -->
 				<section>
 					<h2>Code Your Own Website</h2>
-					<img src="img/circle-gdi-logo.png" alt="GDI Logo" />
+					<img src="dist/img/circle-gdi-logo.png" alt="GDI Logo" />
 					<h3>Intro to HTML + CSS</h3>
 					<p>
 						<small>Class 4</small>
@@ -2680,7 +2495,7 @@ selector {
 					<p class="fragment" style="font-size:90%;">So far, every element we've worked with has been <span class="orange">static</span></p>
 					<div class="fragment" style="font-size:80%">
 						<div style="width:50%;float:left">
-							<p><img src="img/blockinline.png" alt="Block and inline elements, statically positioned" /></p>
+							<p><img src="dist/img/blockinline.png" alt="Block and inline elements, statically positioned" /></p>
 						</div>
 						<div style="float:right;width:50%">
 							<h4>Block-Level Elements:</h4>
@@ -2774,7 +2589,7 @@ selector {
 					<p class="blue">How to limit an absolute element's scope</p>
 					<div class="fragment">
 						<p>We can corral an absolute element inside any non-static (e.g. <span class="green">relative</span>) element</p>
-						<p><img src="img/positioning-banner-concept.png" alt="Limiting the scope" /></p>
+						<p><img src="dist/img/positioning-banner-concept.png" alt="Limiting the scope" /></p>
 					</div>
 				</section>
 				<section>
@@ -2826,7 +2641,7 @@ selector {
 				<section>
 					<h2>Let's Develop It!</h2>
 					<p>Let's use relative and absolute positioning to style our site's banner section</p>
-					<p><img src="img/project-banner.jpg" alt="The design's banner section" /></p>
+					<p><img src="dist/img/project-banner.jpg" alt="The design's banner section" /></p>
 				</section>
 
 				<section>
@@ -2837,7 +2652,7 @@ selector {
 }</code></pre>
 					<p class="fragment"><br />The <span class="blue">float</span> property shifts an element to the <span class="green">left</span> or <span class="green">right</span> on the current line, taking it out of normal flow</p>
 					<p class="fragment">When an element is floated, <span class="orange">subsequent elements wrap around it</span></p>
-					<p class="fragment"><img src="img/floating.png" alt="A floating example" /></p>
+					<p class="fragment"><img src="dist/img/floating.png" alt="A floating example" /></p>
 				</section>
 				<section>
 					<h3>Property: <em>float</em></h3>
@@ -2850,7 +2665,7 @@ selector {
 					<p class="blue">Using <em>float</em> in Layouts</p>
 					<p class="fragment">Use <em>float</em> on block-level elements (<span class="orange">&lt;aside></span>, <span class="orange">&lt;main></span>, <span class="orange">&lt;div></span>, etc.) to make page layouts</p>
 					<p class="fragment">Always <span class="green">set a width</span> on floated block-level elements used in layouts</p>
-					<p class="fragment"><img src="img/example-float-column.png" alt="Setting a width on floated layout elements" /></p>
+					<p class="fragment"><img src="dist/img/example-float-column.png" alt="Setting a width on floated layout elements" /></p>
 				</section>
 				<section>
 					<h3>Property: <em>float</em></h3>
@@ -2877,7 +2692,7 @@ selector {
 				<section>
 					<h2>Let's Develop It!</h2>
 					<p>Let's use floating to style our site's portfolio section</p>
-					<p><img src="img/project-portfolio.jpg" alt="The design's banner section" /></p>
+					<p><img src="dist/img/project-portfolio.jpg" alt="The design's banner section" /></p>
 				</section>
 
 				<!-- Questions -->
@@ -2909,9 +2724,9 @@ selector {
 						<ol style="font-size:85%;line-height:1.3;">
 							<li class="fragment">Create an account on <a href="http://github.com" target="_blank">GitHub.com</a></li>
 							<li class="fragment"><a href="https://desktop.github.com/" target="_blank">Download GitHub Desktop</a>, then open it and login</li>
-							<li class="fragment"><img src="img/GitHub-add-repository.png" alt="Adding a repository" style="float:right;max-width:50%;"/>Click the plus sign and, under the <em>Add</em> tab, browse to the <span class="orange">project</span> folder you used for this class</li>
+							<li class="fragment"><img src="dist/img/GitHub-add-repository.png" alt="Adding a repository" style="float:right;max-width:50%;"/>Click the plus sign and, under the <em>Add</em> tab, browse to the <span class="orange">project</span> folder you used for this class</li>
 							<li class="fragment">An error message will display; click <span class="blue">create a repository</span></li>
-							<li class="fragment"><img src="img/GitHub-create.png" alt="The create repo screen"  style="float:right;max-width:50%;" />Change the <em>Name</em> to <span class="orange"><em>yourusername</em>.github.io</span> (substitute <em>yourusername</em> with your GitHub username)</li>
+							<li class="fragment"><img src="dist/img/GitHub-create.png" alt="The create repo screen"  style="float:right;max-width:50%;" />Change the <em>Name</em> to <span class="orange"><em>yourusername</em>.github.io</span> (substitute <em>yourusername</em> with your GitHub username)</li>
 							<li class="fragment">Click <span class="blue">Create repository</span> (Don't worry about changing <em>Local path</em> or <em>Git ignore</em>)</li>
 						</ol>
 					</section>
@@ -2919,15 +2734,15 @@ selector {
 						<h3>Method 1: GitHub</h3>
 						<ol style="font-size:80%;line-height:1.3;" start="7">
 							<li class="fragment">Click <em>Changes</em>, where you should see a list of project files.</li>
-							<li class="fragment">Enter a <em>Summary</em> and click <span class="blue">Commit to master</span><br /><img src="img/GitHub-commit.png" alt="Committing changes to GitHub"/></li>
+							<li class="fragment">Enter a <em>Summary</em> and click <span class="blue">Commit to master</span><br /><img src="dist/img/GitHub-commit.png" alt="Committing changes to GitHub"/></li>
 						</ol>
 					</section>
 					<section>
 						<h3>Method 1: GitHub</h3>
 						<ol style="font-size:80%;line-height:1.3;" start="9">
-							<li class="fragment"><img src="img/GitHub-publish-screen.png" alt="The publish menu" style="float:right;max-width:50%;" />Click <em>Publish</em> at the top, making sure <em>Name</em> is in the correct format (<span class="orange"><em>yourusername</em>.github.io</span>, except with your username)</li>
+							<li class="fragment"><img src="dist/img/GitHub-publish-screen.png" alt="The publish menu" style="float:right;max-width:50%;" />Click <em>Publish</em> at the top, making sure <em>Name</em> is in the correct format (<span class="orange"><em>yourusername</em>.github.io</span>, except with your username)</li>
 							<li class="fragment">Within a few minutes, your site will be live at <span class="blue">http://<em>yourusername</em>.github.io</span> (substituting your GitHub username for <em>yourusername</em>). Check it out!</li>
-							<li class="fragment">Any time you make changes to your project files, open GitHub Desktop, <em>Commit</em> (step 8) and then click the <img src="img/GitHub-sync.png" style="border:none;box-shadow:none;margin:0;" /> button to publish your changes.</li>
+							<li class="fragment">Any time you make changes to your project files, open GitHub Desktop, <em>Commit</em> (step 8) and then click the <img src="dist/img/GitHub-sync.png" style="border:none;box-shadow:none;margin:0;" /> button to publish your changes.</li>
 						</ol>
 						<div class="fragment" style="font-size:75%;line-height:1.3;">
 							<p class="blue">More info:</p>
@@ -2979,7 +2794,7 @@ selector {
 			</div>
   		<footer>
         <div class="copyright">
-          Official class name here -- Chapter name here (if content modified from original) --
+          HubSpot &mdash; Intro to HTML + CSS &mdash; 1-hour Master Class &mdash;
           <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
         </div>
       </footer>

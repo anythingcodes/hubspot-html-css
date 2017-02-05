@@ -18,11 +18,15 @@ $gdiDarkBlue: #2a4758;
 $gdiEarthYellow: #d8ae64;
 $gdiMauve: #a05258;
 $gdiDarkGray: #333;
+
+// HubSpot Brand Colors
 $hubSpotOrange: #f7751f;
+$hubSpotLogoGrey: #455560;
+$hubSpotActionBlue: #1da1db;
 
 // Primary/body text
 $mainFont: 'Gotham-Round', sans-serif;
-$mainFontSize: 30px;
+$mainFontSize: 38px;
 $mainColor: #eee;
 
 // Headings
@@ -37,7 +41,7 @@ $step-size-heading: 0.33333;
 }
 
 // Links and actions
-$linkColor: #13DAEC;
+$linkColor: $hubSpotActionBlue;
 $linkColorHover: lighten( $linkColor, 20% );
 
 // Text selection

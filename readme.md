@@ -1,45 +1,20 @@
-> Please read our slide creation guidelines in [the wiki](https://github.com/girldevelopit/gdi-slides-template/wiki). Then, delete this banner and add the specifics about your class below.
+# Intro to HTML + CSS
 
-# Add Your Course Title Here
-
-Slides and materials are hosted at [http://github.io/your_username_here/your_repository_name_here](http://github.io/your_username_here/your_repository_name_here).
+A 1-hour intro to HTML and CSS class as part of HubSpot's master class program. Slides and materials are hosted at [http://github.io/anythingcodes/hubspot-html-css](http://github.io/anythingcodes/hubspot-html-css).
 
 ## Course description
 
-Use this space for a short description of your course. We recommend using the description from your meetup event.
-
-**Cost:** 
-
-**Dates:** 
-
-**Location:** 
-
-A limited number of scholarships are available for those with a financial hardship. To apply, contact us at...
-
+In this one-hour-long master class, we'll demystify web development and use HTML and CSS to build a basic webpage. You'll be ready to configure this page to your heart's desire!
 
 ### Prerequisites:
 
-List any prerequisites for this class, including any previous classes or the equivalent self-study or real-world skills.
-
-You should have:
-
-(a) taken Intro or Intermediate HTML/CSS through Girl Develop It, or
-
-(b) built and managed websites on your own,
-
-**And also:**
-
-(a) taken intro to JavaScript through Girl Develop It, or
-
-(b) be familiar with syntax, arrays, conditionals, for and while loops, event handling, jQuery, AJAX requests, and handling JSON responses.
-
+- None
 
 ### Tech requirements:
 
- - Your laptop (Mac, PC, or Linux are all okay).
- - A modern web browser - either Chrome or Firefox with Firebug installed.
- - A text editor. We recommend Sublime Text 2 (free; available for Mac, PC, and Linux).
-
+ - Your laptop (Mac, PC, or Linux are all okay)
+ - A modern web browser &mdash; either Chrome or Firefox with Firebug installed
+ - A text editor. We recommend [Atom](http://atom.io) or [Sublime Text](http://sublimetext.com). Both are free and available for Mac, PC, and Linux.
 
 ### Topics covered:
 
