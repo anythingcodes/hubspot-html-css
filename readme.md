@@ -73,8 +73,7 @@ Coding is quickly turning into one of those must-have skills, but knowing how an
         - Width and height
     - Using Chrome’s inspector
     - **Activity**: Styling an *About Me* page
-- **Resources** *(5 minutes &mdash; Closing Slide)*
-    - Link to Slides
-    - Paid educational sites (Codeschool, Udemy, etc.)
-    - Free resources (YouTube tutorials, Freecodecamp, etc.)
-    - Local meetups and communities (Girl Develop It, etc.)
+- **Resources** *(5 minutes)*
+    - Link to class slides
+    - Paid & free educational resources
+- **Questions** *(any remaining time)*
