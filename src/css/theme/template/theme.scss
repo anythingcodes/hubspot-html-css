@@ -171,14 +171,6 @@ body {
 .reveal footer .copyright a img{
 	vertical-align: middle;
 }
-.reveal .progress {
-	background: rgba(0,0,0,0.2);
-}
-	.reveal .progress span {
-		background: $linkColor;
-		        transition: width 800ms cubic-bezier(0.260, 0.860, 0.440, 0.985);
-	}
-
 
 
 /*********************************************

@@ -6,7 +6,7 @@ A 1-hour intro to HTML and CSS class as part of HubSpot's master class program.
 
 Coding is quickly turning into one of those must-have skills, but knowing how and where to get started can be a headache. Why not check out this hour-long intro with the HubSpot Web Team? Learn the basics of HTML and CSS, and how to use them to build your very own _About Me_ page (or trick out your next Craigslist post).
 
-[View slides](http://anything.codes/hubspot-html-css)
+[View slides](http://anything.codes/hubspot-html-css) | [View class project](http://codepen.io/anythingcodes/pen/ZLRxXP?editors=1100#0)
 
 ### Prerequisites:
 
@@ -18,6 +18,11 @@ Coding is quickly turning into one of those must-have skills, but knowing how an
  - A modern web browser &mdash; either Chrome or Firefox with Firebug installed
  - A text editor. We recommend [Atom](http://atom.io) or [Sublime Text](http://sublimetext.com). Both are free and available for Mac, PC, and Linux.
 
+### Class Preparation:
+
+- Send a note to students asking them to download a text editor. Include the list of text editors with links.
+- Print cheatsheets
+
 ### Schedule:
 
 - **Intro** *(5 minutes)*
@@ -25,20 +30,23 @@ Coding is quickly turning into one of those must-have skills, but knowing how an
     - Downloading Tools
 - **Intro to HTML** *(10 minutes)*
     - What is HTML?
-    - HTML under the hood
-    - Tags and elements
-    - Body and Head
+    - Anatomy of a Website: Content, HTML, and CSS
+    - Anatomy of an HTML Element: Tags and Attributes
+    - The Fundamental Structure of an HTML File
+    - Head and Body Tags
     - Nesting
-    - The fundamental structure of an HTML file    
     - **Activity**: Setup project structure and add fundamental HTML structure
-- **Common HTML Tags** *(10 minutes)*
+- **Common HTML Tags** *(15 minutes)*
     - Paragraph
     - Headings
-    - Formatted Text: strong and emphasized
+    - Formatted Text: strong and em
     - Links / Anchor
     - Images
+    - File paths
+    - Line breaks
     - Lists: unordered and ordered
-    - Layout Tags: &lt;div>, &lt;section>, &lt;header>, &lt;main>, &lt;footer>, etc.
+    - Layout Dividers: &lt;div>, &lt;section>, &lt;header>, &lt;main>, &lt;footer>, etc.
+    - **Activity**: Add HTML
 - **Intro to CSS** *(10 minutes)*
     - CSS: What can it do?
     - CSS: What is it?
@@ -51,23 +59,21 @@ Coding is quickly turning into one of those must-have skills, but knowing how an
 - **CSS Selectors** *(5 minutes)*
     - Element
     - Descendant
-    - Class &mdash; mention IDs in relation to JavaScript
+    - Class &mdash; briefly mention ID
 - **Common CSS Properties** *(15 minutes)*
     - Text:
         - Color
         - Alignment
         - Font-family
-        - Font-size
         - Font-style and font-weight
     - Layout:
         - Background-color
-        - Background-image and background-size
+        - Background-image
         - Border
         - Width and height
     - Using Chrome’s inspector
     - **Activity**: Styling an *About Me* page
-        - Instructor to walk through creating an H1, &lt;section> with class of main, &lt;section> with class of footer, and an H2, a P with children, and an image to get students started
- - **Resources** *(1 minute &mdash; Closing Slide)*
+- **Resources** *(5 minutes &mdash; Closing Slide)*
     - Link to Slides
     - Paid educational sites (Codeschool, Udemy, etc.)
     - Free resources (YouTube tutorials, Freecodecamp, etc.)
