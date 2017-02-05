@@ -3,13 +3,13 @@
 <html>
 
 <head>
-    <title>HTML: A Beginner's Cheatsheet</title>
+    <title>HTML + CSS: A Beginner's Cheatsheet</title>
     <link rel='stylesheet' href='dist/css/cheatsheet.css' type='text/css' media='all' />
 
 </head>
 
 <body>
-<h1>HTML: A Beginner's Cheatsheet</h2>
+<h1>HTML + CSS: A Beginner's Cheatsheet</h1>
 
     <!-- Left Column -->
     <section>
@@ -28,7 +28,7 @@
 				</pre>
         </div>
         <div>
-            <h2>Headings</h2>
+            <h2>HTML: Headings</h2>
             <pre><code>
 &lt;h1><span class="code-content">Heading 1</span>&lt;/h1>
 &lt;h2><span class="code-content">Heading 2</span>&lt;/h2>
@@ -39,7 +39,7 @@
 			</code></pre>
         </div>
         <div>
-            <h2>Links</h2>
+            <h2>HTML: Links</h2>
             <pre><code>
 &lt;a href="my-page.html" title="My Portfolio Page"><span class="code-content">Click here</span>&lt;/a>
 				</code></pre>
@@ -52,9 +52,14 @@
 &lt;a href="mailto:ada@lovelace.com"><span class="code-content">Email me</span>&lt;/a>
 				</code></pre>
         </div>
+        <div>
+            <h2>HTML: Line Breaks</h2>
+            <pre><code>
+&lt;p><span class="code-content">Break it</span>&lt;br /><span class="code-content">down</span>&lt;/p></code></pre>
+        </div>
 
         <div>
-            <h2>Lists</h2>
+            <h2>HTML: Lists</h2>
             <p>Unordered (bulleted) list:</p>
             <pre><code>
 &lt;ul>
@@ -71,13 +76,56 @@
 				</code></pre>
         </div>
 
+
+
         <div>
-            <h2>Text Formatting</h2>
+            <h2>CSS Syntax</h2>
+            <img src="dist/img/css-syntax.png" />
+        </div>
+        <div>
+            <h2>CSS Selector: Element</h2>
+            <p>Enter the element's tag name to target those elements:</p>
             <pre><code>
-&lt;em><span class="code-content">Emphasized (italic) text</span>&lt;/em>
-&lt;strong><span class="code-content">Important (bold) text</span>&lt;/strong>
-&lt;small><span class="code-content">Smaller text</span>&lt;/small>
+p {
+	<span class="code-content">color:</span> aqua;
+}
 				</code></pre>
+        </div>
+        <div>
+            <h2>CSS Selector: Descendant</h2>
+            <p>To target elements that are descended from another element, use a selector for the ancestor, then a space, then a selector for the descendant:</p>
+            <pre><code>p em {
+	<span class="code-content">font-weight:</span> bold;
+}
+
+#special .fancy {
+	<span class="code-content">color:</span> fuchsia;
+}</code></pre>
+        </div>
+        <div>
+            <h2>CSS Property: width</h2>
+            <pre><code>
+selector {
+   <span class="code-content">width:</span> 300px;
+}
+				</code></pre>
+        </div>
+        <div>
+            <h2>CSS Property: height</h2>
+            <pre><code>
+selector {
+   <span class="code-content">height:</span> 100px;
+}
+				</code></pre>
+        </div>
+
+        <div>
+            <h2>CSS Property: text-align</h2>
+            <pre><code>p {
+	<span class="code-content">text-align:</span> left;
+	<span class="code-content">text-align:</span> right;
+	<span class="code-content">text-align:</span> center;
+}</code></pre>
         </div>
 
     </section>
@@ -94,14 +142,14 @@
         </div>
 
         <div>
-            <h2>Paragraphs</h2>
+            <h2>HTML: Paragraphs</h2>
             <pre><code>
 &lt;p><span class="code-content">Here is a lovely paragraph.</span>&lt;/p>
 				</code></pre>
         </div>
 
         <div>
-            <h2>Images</h2>
+            <h2>HTML: Images</h2>
             <p>Absolute image path:</p>
             <pre><code>
 &lt;img src="http://lorempixel.com/200/200/city" alt="Picture of a city" />
@@ -112,7 +160,7 @@
 				</code></pre>
         </div>
         <div>
-            <h2>Dividing Areas</h2>
+            <h2>HTML: Dividing Areas</h2>
             <pre><code>
 &lt;div><span class="code-content">A generic container for elements and content</span>&lt;/div>
 &lt;section><span class="code-content">A section of your page</span>&lt;/section>
@@ -126,7 +174,17 @@
         </div>
 
         <div>
-            <h2>Shorthand Notation</h2>
+            <h2>HTML: Text Formatting</h2>
+            <pre><code>
+&lt;em><span class="code-content">Emphasized (italic) text</span>&lt;/em>
+&lt;strong><span class="code-content">Important (bold) text</span>&lt;/strong>
+&lt;small><span class="code-content">Smaller text</span>&lt;/small>
+				</code></pre>
+        </div>
+
+
+        <div>
+            <h2>HTML: Shorthand Notation</h2>
             <pre><code>
 &lt;br />
 &lt;img />
@@ -137,15 +195,77 @@
 				</code></pre>
             <p><small><strong>Note:</strong> <em>&lt;link /></em> is not a standard web link; it is used in the <em>head</em> element to reference CSS files and fonts. Use <em>&lt;a>&lt;/a></em> for standard web links in the <em>body</em>.</small></p>
         </div>
+
         <div>
-            <h2>Line Breaks</h2>
+            <h2>CSS Property: color</h2>
+            <p>The color property changes the color of the text.</p>
+            <pre><code>p {
+	<span class="code-content">color:</span> red;
+	<span class="code-content">color:</span> #ff0000;
+	<span class="code-content">color:</span> rgb(255, 0, 0);
+	<span class="code-content">color:</span> rgba(255, 0, 0, 0.7);
+}</code></pre>
+            <p>Colors can be represented as color names, hexadecimals, RGB colors, or RGBA colors.</p>
+        </div>
+        <div>
+            <h2>CSS Property: background-color</h2>
+            <pre><code>body {
+	<span class="code-content">background-color:</span> black;
+}</code></pre>
+        </div>
+
+        <div>
+            <h2>CSS Property: background-image</h2>
+            <pre><code>body {
+	<span class="code-content">background-image:</span> url('images/file.png');
+}</code></pre>
+        </div>
+
+        <div>
+            <h2>CSS Property: font-family</h2>
+            <p>Use CSSFontStack.com to generate a web-safe font.</p>
+            <pre><code>body {
+	<span class="code-content">font-family:</span> Helvetica, "Helvetica Neue", Arial, sans-serif;
+}</code></pre>
+        </div>
+
+
+
+        <div>
+            <h2>CSS Properties: font-style and font-weight</h2>
+            <pre><code>p {
+	<span class="code-content">font-style:</span> normal;
+	<span class="code-content">font-style:</span> italic;
+	<span class="code-content">font-style:</span> oblique;
+
+	<span class="code-content">font-weight:</span> normal;
+	<span class="code-content">font-style:</span> bold;
+}</code></pre>
+        </div>
+
+        <div>
+            <h2>CSS Property: Border</h2>
             <pre><code>
-&lt;p><span class="code-content">Break it</span>&lt;br /><span class="code-content">down</span>&lt;/p></code></pre>
+selector {
+   <span class="code-content">border:</span> thickness style color;
+}
+				</code></pre>
+            <p>Can also specify border-top, border-right, border-bottom, or border-left to apply a border to individual sides.</p>
         </div>
     </section>
 
     <section class="full">
-
+        <div>
+            <h2>Connecting CSS to HTML</h2>
+            <ol>
+                <li><strong>External (Recommended):</strong> Within the <em>&lt;head /></em> element of an HTML file, use the following to link to a CSS file:
+                    <pre><code>
+&lt;link rel="<span class="code-content">stylesheet</span>" href="<span class="code-content">file-path-here.css</span>" />
+						</code></pre>
+                </li>
+                <li><strong>Inline</strong>: In the HTML file, within an element's opening tag, a <em>style=""</em> attribute contains CSS for that element.</li>
+                <li><strong>Embedded</strong>: In the HTML file, CSS is placed within the &lt;head /> in a <em>&lt;style /></em> element.</li>
+        </div>
         <div>
             <h2>File Paths</h2>
             <p>Applies to all types of file references, including links to CSS files, image sources, and background images.</p>
@@ -197,17 +317,7 @@
                 </tbody></table>
         </div>
 
-        <div>
-            <h2>Connecting CSS to HTML</h2>
-            <ol>
-                <li><strong>External (Recommended):</strong> Within the <em>&lt;head /></em> element of an HTML file, use the following to link to a CSS file:
-                    <pre><code>
-&lt;link rel="<span class="code-content">stylesheet</span>" href="<span class="code-content">file-path-here.css</span>" />
-						</code></pre>
-                </li>
-                <li><strong>Inline</strong>: In the HTML file, within an element's opening tag, a <em>style=""</em> attribute contains CSS for that element.</li>
-                <li><strong>Embedded</strong>: In the HTML file, CSS is placed within the &lt;head /> in a <em>&lt;style /></em> element.</li>
-        </div>
+
     </section>
 
 

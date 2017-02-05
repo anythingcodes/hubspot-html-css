@@ -37,6 +37,7 @@ section{
 }
 section.full{
 	width:98%;
+	padding: 0 1%;
 }
 div{
 	border:1px dashed #ccc;
@@ -72,7 +73,7 @@ table td, table th{
 }
 
 @media print {
-	body{font-size:11px}
+	body{font-size:10px}
 	#beginners-class2{font-size:8px}
 	#beginners-class4{font-size:7.5px}
 	pre{background:rgba(0, 0, 0, 0.04) !important;-webkit-print-color-adjust: exact;}
