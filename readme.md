@@ -2,6 +2,14 @@
 
 A 1-hour intro to HTML and CSS class as part of HubSpot's master class program. 
 
+## Running slides locally
+
+The first time you run this project, you'll need to:
+1. Change to the directory in a CLI and run `npm i`
+2. Run `gem install sass` to install Sass. **Note:** You will need to download Ruby to run this gem command.
+
+Each subsequent time, run `grunt` to spin up a local server of these slides.
+
 ## About This Class
 
 Coding is quickly turning into one of those must-have skills, but knowing how and where to get started can be a headache. Why not check out this hour-long intro with the HubSpot Web Team? Learn the basics of HTML and CSS, and how to use them to build your very own _About Me_ page (or trick out your next Craigslist post).
