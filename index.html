@@ -1037,6 +1037,44 @@ img {
 				</section>
 
 				<section>
+					<h3>Selector: Descendant</h3>
+					<p>To target elements that are descended from another element, use a <span class="blue">selector for the ancestor</span>, then <span class="blue">a space</span>, then a <span class="blue">selector for the descendant</span>:</p>
+					<div>
+						<div class="left" style = "width:55%">
+							<p><span class="orange"><u>HTML:</u></span></p>
+							<pre class="apache"><code>&lt;div>
+  Buy one get one
+  &lt;strong>free&lt;/strong>
+  &lt;p>
+    Offer valid
+    &lt;strong>today&lt;/strong>
+    only
+  &lt;/p>
+&lt;/div></code></pre>
+						</div>
+						<p><span class="orange"><u>CSS:</u></span></p>
+						<div>
+            <pre><code class="css">
+div strong {
+  background-color: yellow;
+  color: blue;
+}
+            </code></pre>
+						</div>
+						<div class ="clear"></div>
+					</div>
+					<div class="fragment">
+						<p>&nbsp;</p>
+						<p><span class="orange"><u>Result:</u></span></p>
+						<div>
+							Buy one get one <strong style="background:yellow;color:blue;text-transform: uppercase;">free</strong>
+							<p>Offer valid <strong style="background:yellow;color:blue;">today</strong> only</p>
+						</div>
+					</div>
+					<aside class="notes">Ask students which words would have a yellow BG with blue italicised text. Ask students what element would be an immediate child of the div. CODE EXAMPLE WITH STRUCTURE, AND ASK WHAT ANCESTORS OF A CERTAIN ELEMENTS WOULD HAVE. Also ask about two different ways to target an H1, for example.</aside>
+				</section>
+
+				<section>
 					<h3>Selector: Class</h3>
 					<p>Enter <span class="blue">a period (.)</span><br />followed directly by the <span class="blue">class attribute's value</span><br />to target all elements with that class:</p>
 					<div>
@@ -1170,8 +1208,6 @@ body {
                     <aside class="notes">Applying a background to the body element is how you should set your entire page's background. Show them how it can work alongside the color property -- google 'transparent texture background'. EMPHASIZE STARTING FILE LOCATION AND WHAT ../ MEANS.</aside>
                 </section>
 
-
-
 				<!-- Border -->
 				<section>
 					<h3>Property: <em>border</em></h3>
@@ -1207,44 +1243,6 @@ footer {
   height: 200px;
 }
           </code></pre>
-				</section>
-
-				<section>
-					<h3>Selector: Descendant</h3>
-					<p>To target elements that are descended from another element, use a <span class="blue">selector for the ancestor</span>, then <span class="blue">a space</span>, then a <span class="blue">selector for the descendant</span>:</p>
-					<div>
-						<div class="left" style = "width:55%">
-							<p><span class="orange"><u>HTML:</u></span></p>
-							<pre class="apache"><code>&lt;div>
-  Buy one get one
-  &lt;strong>free&lt;/strong>
-  &lt;p>
-    Offer valid
-    &lt;strong>today&lt;/strong>
-    only
-  &lt;/p>
-&lt;/div></code></pre>
-						</div>
-						<p><span class="orange"><u>CSS:</u></span></p>
-						<div>
-            <pre><code class="css">
-div strong {
-  background-color: yellow;
-  color: blue;
-}
-            </code></pre>
-						</div>
-						<div class ="clear"></div>
-					</div>
-					<div class="fragment">
-						<p>&nbsp;</p>
-						<p><span class="orange"><u>Result:</u></span></p>
-						<div>
-							Buy one get one <strong style="background:yellow;color:blue;text-transform: uppercase;">free</strong>
-							<p>Offer valid <strong style="background:yellow;color:blue;">today</strong> only</p>
-						</div>
-					</div>
-					<aside class="notes">Ask students which words would have a yellow BG with blue italicised text. Ask students what element would be an immediate child of the div. CODE EXAMPLE WITH STRUCTURE, AND ASK WHAT ANCESTORS OF A CERTAIN ELEMENTS WOULD HAVE. Also ask about two different ways to target an H1, for example.</aside>
 				</section>
 
 				<!-- Activity -->
