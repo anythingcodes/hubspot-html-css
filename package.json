@@ -1,11 +1,11 @@
 {
   "name": "hubspot-html-css",
   "version": "2.6.2",
-  "description": "A 1-hour intro to HTML/CSS for a HubSpot master class",
-  "homepage": "http://girldevelopit.github.io/gdi-slides-template",
+  "description": "A 2-hour intro to HTML/CSS for a HubSpot master class",
+  "homepage": "http://anything.codes/hubspot-html-css",
   "scripts": {
     "test": "grunt test",
-    "start": ""
+    "start": "grunt"
   },
   "author": {
     "name": "Liz Shaw",

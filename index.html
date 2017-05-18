@@ -241,11 +241,11 @@
 							<ul>
 								<li>Value is the value assigned to a given attribute</li>
 								<li>Values must be contained inside quotation marks:
-								<pre>
-									<code class="apache">&lt;img src="my_picture.jpg" />
-									&lt;div id="intro"&gt;Lorem ipsum&lt;/div>
-									&lt;a href="http://hubspot.com" class="fancy-link">HubSpot&lt;/a></code>
-								</pre>
+									<pre>
+										<code class="apache">&lt;a href="https://www.hubspot.com" class="fancy-link">HubSpot&lt;/a>
+&lt;img src="my_picture.jpg" />
+&lt;div id="intro"&gt;Lorem ipsum&lt;/div></code>
+									</pre>
 								</li>
 							</ul>
 						</li>
@@ -623,19 +623,19 @@
 					<h3>Common HTML Tags</h3>
 					<p class="blue">Images</p>
 					<p>Images have three components:</p>
-					<ol>
+					<ol style="font-size:80%;">
 						<li>The <span class="green">tag:</span>
 							<p style="text-indent:2em;"><em>&lt;img /></em></p>
 						</li>
 						<li>The <span class="green">src</span> attribute:
-							<p style="text-indent:2em;"><em>src="http://lorempixel.com/200/200/city/"</em></p>
+							<p style="text-indent:2em;"><em>src="http://lorempixel.com/100/100/city/"</em></p>
 						</li>
 						<li>The <span class="green">alt</span> attribute:
 							<p style="text-indent:2em;"><em>alt="Picture of a city"</em></p>
 						</li>
 					</ol>
 					<pre class="apache"><code>&lt;img src="http://lorempixel.com/200/200/city/" alt="Picture of a city" /></code></pre>
-					<p><img src="http://lorempixel.com/200/200/city/" alt="Picture of a city" style="box-shadow:none;border-radius:0;"/></p>
+					<p><img src="http://lorempixel.com/100/100/city/" alt="Picture of a city" style="box-shadow:none;border-radius:0;border:none;"/></p>
 					<p><small>* Notice: This tag is our first example of a stand-alone or "self-closing" element.</small></p>
 					<aside class="notes">Clarify what lorempixel is if you haven't already.</aside>
 				</section>
@@ -756,7 +756,7 @@
 					</div>
 				</section>
 
-				<section>
+				<!--<section>
 					<h3>Common HTML Tags</h3>
 					<p class="blue">Character Codes</p>
 					<div class="left" style="width:60%;font-size:90%;">
@@ -779,7 +779,7 @@
 					<div class="right" style="width: 40%;">
 						<img src="dist/img/example-characters.png" alt="Example of Characters"/>
 					</div>
-				</section>
+				</section>-->
 
 				<section>
 					<h2>Activity: Add HTML</h2>
@@ -790,7 +790,7 @@
 								<li>Open <span class="green">index.html</span> in your text editor</li>
 								<li>Add a <span class="orange">&lt;h1></span> containing your name</li>
 								<li>Add two <span class="orange">&lt;section></span>s, one with a <span class="blue">class</span> attribute of <span class="blue">main</span> and another with a <span class="blue">class</span> attribute of <span class="blue">footer</span></li>
-								<li>Go wild &mdash; add paragraphs, bold and italicized text, lists, links, character codes, and images</li>
+								<li>Go wild &mdash; add paragraphs, bold and italicized text, lists, links, and images</li>
 							</ol>
 						</div>
 						<div class="halfblock">
